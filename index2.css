@@ -1,0 +1,124 @@
+.grid-list {
+  display: -ms-grid;
+  display: grid;
+  margin: 0;
+  padding: 0px;
+}
+
+.grid-list > div {
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+}
+
+.d1 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 /span 12;
+  background-color: #e9a0a0;
+  width: auto;
+  height: 30px;
+}
+
+.d1 h1 {
+  font-weight: normal;
+  padding: 10px;
+  margin: 5px;
+}
+
+.pesquisa {
+  width: 400px;
+  height: 40px;
+  margin: 20px;
+}
+
+.pesquisa #textos {
+  width: 300px;
+  height: 40px;
+  float: left;
+  font-family: verdana;
+  color: blueviolet;
+  font-size: 20px;
+  text-align: center;
+}
+
+.imagem {
+  height: 40px;
+  padding: 10px;
+  margin-right: 30px;
+}
+
+.d2 {
+  background-color: blueviolet;
+  width: 400px;
+  height: 300px;
+}
+
+.d2 p {
+  text-align: left;
+}
+
+.contato {
+  font-size: 20px;
+  padding: 5px;
+  text-align: left;
+}
+
+.button {
+  text-align: left;
+}
+
+.d3 {
+  background-color: #aa7cd4;
+  width: 600px;
+  height: 500px;
+}
+
+#eventos {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#inf {
+  width: 80px;
+}
+
+.list-even {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: brown;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+}
+
+.list-even li {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.footer {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 12;
+  grid-column: 1 / span 12;
+  -ms-grid-row: 3;
+  grid-row: 3;
+  background-color: #d0ebdc;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.footer img {
+  width: 40px;
+}
+
+td {
+  border-collapse: separate;
+  padding: 20px;
+  margin: 10px;
+}
+/*# sourceMappingURL=index2.css.map */
